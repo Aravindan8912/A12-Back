@@ -17,7 +17,7 @@ public static class DependencyInjection
         if (string.IsNullOrWhiteSpace(connectionString))
         {
             throw new InvalidOperationException(
-                $"Connection string '{ConnectionStringName}' is missing.");
+                $"Connection string '{ConnectionStringName}' is missing from web.config.");
         }
 
         services.AddDbContext<A12DbContext>(options =>

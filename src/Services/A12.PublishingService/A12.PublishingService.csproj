@@ -14,4 +14,8 @@
     <ProjectReference Include="..\..\Shared\A12.Infrastructure\A12.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\..\web.config" Link="a12.web.config" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/Functions/">
+    <Project Path="src/Functions/A12.Functions/A12.Functions.csproj" />
+  </Folder>
   <Folder Name="/src/Services/">
     <Project Path="src/Services/A12.AIContentService/A12.AIContentService.csproj" />
     <Project Path="src/Services/A12.PostService/A12.PostService.csproj" />

@@ -1,6 +1,8 @@
 using A12.Infrastructure;
+using A12.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddA12WebConfig(builder.Environment.ContentRootPath);
 
 // Add services to the container.
 
