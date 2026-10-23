@@ -1,0 +1,6 @@
+@A12.AIContentService_HostAddress = http://localhost:5057
+
+GET {{A12.AIContentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

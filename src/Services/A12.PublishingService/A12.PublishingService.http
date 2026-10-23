@@ -1,0 +1,6 @@
+@A12.PublishingService_HostAddress = http://localhost:5113
+
+GET {{A12.PublishingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
