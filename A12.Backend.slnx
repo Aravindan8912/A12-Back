@@ -1,2 +1,14 @@
 <Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/">
+    <Project Path="src/Services/A12.AIContentService/A12.AIContentService.csproj" />
+    <Project Path="src/Services/A12.PostService/A12.PostService.csproj" />
+    <Project Path="src/Services/A12.PublishingService/A12.PublishingService.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/A12.Infrastructure/A12.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Workers/">
+    <Project Path="src/Workers/A12.SchedulerWorker/A12.SchedulerWorker.csproj" />
+  </Folder>
 </Solution>

@@ -1,8 +1,11 @@
+using A12.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddA12Database(builder.Configuration);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -18,6 +21,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapA12DatabaseHealth();
 app.MapControllers();
 
 app.Run();
