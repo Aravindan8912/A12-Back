@@ -1,0 +1,6 @@
+@A12.PostService_HostAddress = http://localhost:5110
+
+GET {{A12.PostService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
